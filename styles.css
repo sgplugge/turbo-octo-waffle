@@ -60,6 +60,7 @@ body {
 }
 
 /* THIS IS WHAT MADE THE IMAGES APPEAR */
+
 .portfolio-img-background {
     background-size: cover;
     background-position: center;
@@ -68,49 +69,33 @@ body {
     width: 100%;
 }
 
-img {
+
+.portfolio-img-background:hover {
     opacity: 0.5;
-  }
-  
-  img:hover {
-    opacity: 1.0;
+    transition: 0.7s;
+}
+
+.img-darken {
+    transition: 1s;
+    filter: brightness(10%);
   }
 
-.img-text-wrapper {
-    position: absolute;
-    top: 0;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 100%;
-    text-align: center;
-    padding-left: 100px;
-    padding-right: 100px;
-  }
-
-  .logo-wrapper img {
-    width: 50%;
-    margin-bottom: 20px
-  }
 
   .img-text-wrapper:hover  {
     color: lightseagreen;
     font-weight: 600;
   }
 
+
   .subtitle  {
     color: lightseagreen;
     font-weight: 600;
+    text-align:center;
+    padding-top: 150px;
+    
   }
   
 
-.img-darken {
-  transition: 1s;
-  filter: brightness(10%);
-}
-
- 
   
 
   
