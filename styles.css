@@ -86,10 +86,15 @@ body {
     margin-bottom: 20px
   }
 
-  .img-text-wrapper:hover .subtitle {
+  .img-text-wrapper:hover  {
     color: lightseagreen;
     font-weight: 600;
   }
+  .subtitle  {
+    color: lightseagreen;
+    font-weight: 600;
+  }
+  
 
 .img-darken {
   transition: 1s;
