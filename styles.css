@@ -68,6 +68,14 @@ body {
     width: 100%;
 }
 
+img {
+    opacity: 0.5;
+  }
+  
+  img:hover {
+    opacity: 1.0;
+  }
+
 .img-text-wrapper {
     position: absolute;
     top: 0;
@@ -90,6 +98,7 @@ body {
     color: lightseagreen;
     font-weight: 600;
   }
+
   .subtitle  {
     color: lightseagreen;
     font-weight: 600;
