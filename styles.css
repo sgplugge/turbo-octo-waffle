@@ -70,34 +70,34 @@ body {
 }
 
 
+
+
 .portfolio-img-background:hover {
     opacity: 0.5;
     transition: 0.7s;
 }
 
-.img-darken {
-    transition: 1s;
-    filter: brightness(10%);
-  }
 
-
+  
   .img-text-wrapper:hover  {
+      
     color: lightseagreen;
     font-weight: 600;
+    position: absolute;
+    
   }
 
-
-  .subtitle  {
+  
+  .subtitle {
     color: lightseagreen;
     font-weight: 600;
     text-align:center;
     padding-top: 150px;
+ 
     
   }
-  
-
-  
-
+ 
+ 
   
 
 
