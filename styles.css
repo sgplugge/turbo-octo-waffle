@@ -69,37 +69,25 @@ body {
     width: 100%;
 }
 
-
-
-
 .portfolio-img-background:hover {
     opacity: 0.5;
     transition: 0.7s;
+
+}
+
+.portfolio-img-background .subtitle .img-text-wrapper {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 350px;
+    width: 100%;
+
 }
 
 
-  
-  .img-text-wrapper:hover  {
-      
-    color: lightseagreen;
-    font-weight: 600;
-    position: absolute;
-    
-  }
-
-  
-  .subtitle {
-    color: lightseagreen;
-    font-weight: 600;
+.portfolio-img-background .subtitle .img-text-wrapper:hover {
+     color: lightseagreen;
+    font-weight: 800;
     text-align:center;
     padding-top: 150px;
- 
-    
-  }
- 
- 
-  
-
-
-
-
+   
