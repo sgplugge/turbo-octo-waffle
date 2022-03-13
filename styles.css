@@ -91,3 +91,10 @@ body {
     text-align:center;
     padding-top: 150px;
    
+
+    .text {
+      
+        font-weight: 600;
+        text-align:center;
+        padding-top: 150px;
+    }
